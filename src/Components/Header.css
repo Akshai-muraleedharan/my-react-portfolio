@@ -18,6 +18,8 @@ header {
     grid-template-columns: 1fr 1fr;
     background-color: var(--primary);
     width: 100%;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -86,14 +88,15 @@ header nav ul li:hover {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-template-columns: 1fr;
-        position: relative;
+        position: sticky;
+        top: 0;
     }
 
 
 
     header nav {
         position: absolute;
-        background-color: var(--primary);
+        background-color: var(--secondary);
         top: 57px;
         padding: 0;
         width: 100%;
@@ -109,10 +112,11 @@ header nav ul li:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 89vh;
+        height: 92vh;
         padding: 0;
         margin: 0;
         position: sticky;
+        
     }
 
     .logo {
@@ -125,6 +129,7 @@ header nav ul li:hover {
 
     header nav ul li {
         padding: 5px 6px;
+        color: var(--primary);
     }
 
     .nav-toggle {

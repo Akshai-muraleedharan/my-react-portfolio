@@ -1,15 +1,22 @@
 import React from "react";
 import Header from "./Components/Header";
-import Main from "./Components/Main";
+import Home from "./Components/Home";
+import About from "./Components/About";
+
+
+
 
 
 function App() {
   return (
     <div >
       <Header />
-      <Main />
+      <Home />
+      <About />
     </div>
   );
 }
 
 export default App;
+
+
