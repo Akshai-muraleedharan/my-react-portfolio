@@ -19,7 +19,7 @@ function Contact() {
                                 Fullname
                             </label>
                             <br />
-                            <input type="text" id='fullname'/>
+                            <input type="text" id='fullname' placeholder='Enter fullname'/>
                             <div className='warning'></div>
                         </div>
 
@@ -28,7 +28,7 @@ function Contact() {
                                 E-mail
                             </label>
                             <br />
-                            <input type="text" />
+                            <input type="text" placeholder='Enter E-mail' />
                             <div className='warning' ></div>
 
                         </div>
@@ -38,13 +38,13 @@ function Contact() {
                                 Phone number
                             </label>
                             <br />
-                            <input type="text" />
+                            <input type="text" placeholder='Enter Phone Number'/>
                             <div className='warning'></div>
 
                         </div>
 
                         <div>
-                            <textarea type="text" rows={10} ></textarea>
+                            <textarea type="text" rows={10} placeholder='Enter Message ' ></textarea>
                             <div className='warning'></div>
 
                         </div>

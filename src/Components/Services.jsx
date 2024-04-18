@@ -8,7 +8,7 @@ import { FaCircleNodes } from "react-icons/fa6";
 function Services() {
     return (
         <section className='service-container' id='services-section'>
-            <h2><span>My</span> work</h2>
+            <h2><span>My</span>  Services</h2>
             <div className='ser-wrapper'>
                 <div >
                     <div className='ser-card'>

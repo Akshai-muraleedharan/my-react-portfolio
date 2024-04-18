@@ -54,16 +54,22 @@ header nav ul li  {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--secondary);
-    padding: 5px 6px;
-    border-radius: 4px;
     cursor: pointer;
     list-style: none;
+    padding: 5px 6px;
+    border-radius: 4px;
 
 }
 
 header nav ul li a{
     color: var(--secondary);
+    padding: 5px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
 }
+
+
+
 
 header nav ul li:hover {
     background-color: var(--hover);

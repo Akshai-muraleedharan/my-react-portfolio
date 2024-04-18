@@ -13,18 +13,19 @@
     --title:#50a7ff;
     --card:#333537;
     --cardwork:#b1b140;
-   
+    
 }
 
 .contact-container{
     background-color: var(--primary);
-    height: 88vh;
+    height: 100vh;
 }
 
 .contact-container h1{
     color: var(--secondary);
     text-align: center;
     font-size: 35px;
+    padding-top: 81px;
 }
 
 .contact-container h1 span{
