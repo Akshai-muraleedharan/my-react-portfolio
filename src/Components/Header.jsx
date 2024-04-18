@@ -7,6 +7,7 @@ import "./Header.css"
 
 
 
+
 function Header() {
     return (
        
@@ -18,8 +19,8 @@ function Header() {
               
                 <nav >
                     <ul>
-                        <li>home</li>
-                        <li>about</li>
+                        <li>Home </li>
+                        <li>About </li>
                         <li>services</li>
                         <li>contact</li>
                     </ul>
