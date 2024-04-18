@@ -15,7 +15,7 @@
 
 .container-about{
     background-color: var(--primary);
-    height: 106vh;
+    height: 105vh;
     position: relative;
 }
 .container-about h1{

@@ -87,7 +87,7 @@ header nav ul li:hover {
     color: red;
 }
 
-@media screen and (min-width:220px) and (max-width:447px) {
+@media screen and (min-width:220px) and (max-width:570px) {
     header {
         background-color: var(--primary);
         width: 100%;
@@ -190,3 +190,4 @@ header nav ul li:hover {
         
     }
 }
+

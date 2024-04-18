@@ -11,7 +11,7 @@ function About() {
             
           <h2 className='experience'>Experience</h2>
           <h2>FullStack web developer: <span>Fre<span style={{color:"#fff"}}>sh</span>er;</span></h2>
-          <h2>UX/UI designer: <span className='secondspan'>F<span style={{color:"#fff"}}>re</span>sher;</span></h2>
+          <h2>UI/UX designer: <span className='secondspan'>F<span style={{color:"#fff"}}>re</span>sher;</span></h2>
          
          <div className='qualification'>
          <h2>Qualification</h2>
