@@ -7,7 +7,7 @@ import { FiTwitter } from "react-icons/fi";
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container" id="home-section">
       <section className="wrapper display-grid">
         <div className="content-wrapper">
           <h3>Hi there.</h3>

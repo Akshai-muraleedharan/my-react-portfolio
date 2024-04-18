@@ -18,7 +18,7 @@
 
 .service-container{
     background-color: var(--primary);
-    height: 80vh;   
+    height: 100vh;   
 }
 
 .service-container h2{
@@ -26,6 +26,7 @@
     margin-bottom: 30px;
     text-align: center;
     font-size: 35px;
+    padding-top: 91px;
 }
 
 
@@ -86,7 +87,7 @@
 
     .service-container{
         background-color: var(--primary);
-        height: 190vh;   
+        height: 150vh;   
     }
 }
 
@@ -104,7 +105,7 @@
 
     .service-container{
         background-color: var(--primary);
-        height: 160vh;   
+        height: 170vh;   
     }
 
     

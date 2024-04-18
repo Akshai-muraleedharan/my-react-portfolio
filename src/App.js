@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
-import Contacts from "./Components/Contacts";
+
 
 
 
@@ -18,7 +18,7 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Contacts />
+      <Contact />
     </div>
   );
 }

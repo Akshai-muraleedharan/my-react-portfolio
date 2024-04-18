@@ -15,7 +15,7 @@
 
 .container-about{
     background-color: var(--primary);
-    height: 105vh;
+    height: 104vh;
     position: relative;
 }
 .container-about h1{
@@ -23,6 +23,8 @@
     color: var(--hover);
     cursor: pointer;
     font-size: 35px;
+    padding-top: 91px
+    
 }
 
 .container-about h1 span{
@@ -40,7 +42,7 @@
     margin: 0 auto;
     max-width: 1136px;
     /* background-color: #312f2f;  */
-    height: 85vh;
+    height: 70vh;
 }
 
 .about-content{

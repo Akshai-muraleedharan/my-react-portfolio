@@ -1,8 +1,15 @@
 import React from 'react'
 import "./Contact.css"
+
+const btnEl =document.getElementById('btn-el')
+
+btnEl?.addEventListener('click',(e)=>{
+    e.preventDefault()
+})
+
 function Contact() {
     return (
-        <section className='contact-container'>
+        <section className='contact-container' id='contact-section'>
             <h1>Contact <span>me</span></h1>
             <div className='contact-wrapper'>
                 <div className='contact-form'>
@@ -12,8 +19,8 @@ function Contact() {
                                 Fullname
                             </label>
                             <br />
-                            <input type="text" />
-                            <div className='warning'>asdasd</div>
+                            <input type="text" id='fullname'/>
+                            <div className='warning'></div>
                         </div>
 
                         <div>
@@ -22,7 +29,7 @@ function Contact() {
                             </label>
                             <br />
                             <input type="text" />
-                            <div className='warning' >sdsd</div>
+                            <div className='warning' ></div>
 
                         </div>
 
@@ -32,19 +39,19 @@ function Contact() {
                             </label>
                             <br />
                             <input type="text" />
-                            <div className='warning'>sdssd</div>
+                            <div className='warning'></div>
 
                         </div>
 
                         <div>
                             <textarea type="text" rows={10} ></textarea>
-                            <div className='warning'>sd</div>
+                            <div className='warning'></div>
 
                         </div>
 
 
                         <div>
-                            <button>Submit</button>
+                            <button id='btn-el' >Submit</button>
                         </div>
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import "./About.css"
 function About() {
   return (
-    <section  className='container-about'>
+    <section  className='container-about' id='about-section'>
         <h1 >Ab<span>ou</span>t</h1>
       <div className='wrapper-about grid-about'>
         

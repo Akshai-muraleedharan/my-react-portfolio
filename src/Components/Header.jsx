@@ -19,10 +19,18 @@ function Header() {
               
                 <nav >
                     <ul>
-                        <li>Home </li>
-                        <li>About </li>
-                        <li>services</li>
-                        <li>contact</li>
+                        <li>
+                            <a href="./#home-section">Home </a>
+                        </li>
+                        <li>
+                            <a href="./#about-section">About </a>
+                        </li>
+                        <li>
+                            <a href="./#services-section">services</a>
+                        </li>
+                        <li>
+                            <a href="./#contact-section">contact</a>
+                        </li>
                     </ul>
                 </nav>
 
