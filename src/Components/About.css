@@ -19,11 +19,14 @@
     position: relative;
 }
 .container-about h1{
-    position: absolute;
-    top: 26px;
-    left: 110px;
+    text-align: center;
     color: var(--hover);
     cursor: pointer;
+    font-size: 35px;
+}
+
+.container-about h1 span{
+    color: var(--secondary);
 }
 
 
@@ -41,7 +44,7 @@
 }
 
 .about-content{
-    margin-top: 150px;
+    margin-top: 90px;
     color: var(--secondary);
     padding-left: 110px;
     cursor: pointer;
@@ -103,7 +106,7 @@
 
 .skill{
     color: var(--secondary);
-    margin-top: 150px;
+    margin-top: 90px;
     padding-left: 30px;
     border-left: 1px solid var(--secondary);
     
@@ -146,7 +149,7 @@
         padding-left: 30px;
     }
     .container-about{
-        height: 135vh;
+        height: 144vh;
     }
     .about-content h2{
         font-size: 16px;

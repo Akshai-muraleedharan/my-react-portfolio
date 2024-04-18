@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+:root {
+    --primary: #020202;
+    --secondary: #fff;
+    --hover: #297cd1;
+    --title:#50a7ff;
+    --card:#333537;
+    --cardwork:#b1b140;
+   
+}
+
+.contact-container{
+    background-color: var(--primary);
+    height: 100vh;
+}
+
+.contact-container h1{
+    color: var(--secondary);
+    text-align: center;
+    font-size: 35px;
+}
+
+.contact-container h1 span{
+    color: var(--title);
+}
+
+.contact-wrapper{
+    width: 80vw;
+    margin: 0px auto;
+     /* background-color: #312f2f;  */
+     height: 80vh;
+     display: flex;
+    align-items: center;
+}
+
+.contact-form{
+    padding: 0px  0px 0px 50px;
+    width: 91%;
+}
+
+.contact-form input{
+    padding: 7px 0px 7px 4px;
+    width: 100%;
+    
+    
+}
+
+form label{
+    color: var(--secondary);
+}
+
+form textarea{
+    width: 100%;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+form input{
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+}
+form button{
+    width: 100%;
+    padding: 6px 0px;
+    margin-top: 10px;
+}
+
+.warning{
+    text-align: end;
+    color: red;
+}
+
+@media screen and (min-width:220px) and (max-width:570px){
+    .contact-wrapper{
+        width: 100%;
+        margin: 0px ;
+         /* background-color: #312f2f;  */
+         display:block;
+        
+    }
+    .contact-form{
+        padding: 0px  0px 0px 10px;
+        width: 91%;
+    }
+}
