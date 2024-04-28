@@ -110,7 +110,7 @@ header nav ul li:hover {
     }
     
     header nav ul li a{
-        color: var(--primary);
+        color: var(--secondary);
     }
 
 
@@ -149,7 +149,7 @@ header nav ul li:hover {
 
     header nav ul li {
         padding: 5px 6px;
-        color: var(--primary);
+        color: var(--secondary);
     }
 
     .nav-toggle {
@@ -160,6 +160,12 @@ header nav ul li:hover {
     .nav-toggle:checked~nav {
         transform: translateX(0px);
         transition: 1s 1ms ease-in-out;
+        background-color: rgb(95, 102, 109);
+        opacity: 0.9;
+        color: #fff;
+        
+       
+        
 
     }
 
