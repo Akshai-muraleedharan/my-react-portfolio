@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Akshai-muraleedharan/my-react-portfolio/static/css/main.24e4aeb1.css",
+    "main.js": "/Akshai-muraleedharan/my-react-portfolio/static/js/main.3714a165.js",
+    "index.html": "/Akshai-muraleedharan/my-react-portfolio/index.html",
+    "main.24e4aeb1.css.map": "/Akshai-muraleedharan/my-react-portfolio/static/css/main.24e4aeb1.css.map",
+    "main.3714a165.js.map": "/Akshai-muraleedharan/my-react-portfolio/static/js/main.3714a165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24e4aeb1.css",
+    "static/js/main.3714a165.js"
+  ]
+}
