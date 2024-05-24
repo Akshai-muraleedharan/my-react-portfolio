@@ -16,10 +16,7 @@
    
 }
 
-.service-container{
-    background-color: var(--primary);
-    height: 100vh;   
-}
+
 
 .service-container h2{
     color: var(--secondary);
@@ -38,7 +35,7 @@
     margin: 0 auto;
     width: 1136px;
     /* background-color: #312f2f; */
-    height: 50vh;
+    /* height: 50vh; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
@@ -77,36 +74,30 @@
 @media screen and (min-width:220px) and (max-width:570px){
     .ser-wrapper{
         margin: 0 auto;
-        width: 90vw;
+        width: 90%;
         /* background-color: #312f2f; */
-        height: 40vh;
+        /* height: 40vh; */
         display: grid;
         grid-template-columns: 1fr ;
         row-gap: 20px;
     }
 
-    .service-container{
-        background-color: var(--primary);
-        height: 180vh;   
-    }
+    
 }
 
 @media screen and (min-width:572px) and (max-width:1070px){
     .ser-wrapper{
         margin: 0 auto;
-        width: 90vw;
+        width: 90%;
         /* background-color: #312f2f; */
-        height: 40vh;
+        /* height: 40vh; */
         display: grid;
         grid-template-columns: 1fr  ;
         row-gap: 20px;
        
     }
 
-    .service-container{
-        background-color: var(--primary);
-        height: 190vh;   
-    }
+   
 
     
 }

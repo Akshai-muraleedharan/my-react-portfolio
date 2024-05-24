@@ -18,7 +18,7 @@
 
 .contact-container{
     background-color: var(--primary);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .contact-container h1{
@@ -36,7 +36,7 @@
     width: 80vw;
     margin: 0px auto;
      /* background-color: #312f2f;  */
-     height: 80vh;
+     /* height: 80vh; */
      display: flex;
     align-items: center;
 }
@@ -93,15 +93,7 @@ form button{
         padding: 0px  0px 0px 20px;
         width: 91%;
     }
-    .contact-container{
-        height: 100vh;
-    }
+    
     
 }
 
-@media screen and (min-width:768px) and (max-width:801px){
-    .contact-container{
-        height: 110vh;
-    }
-    
-}

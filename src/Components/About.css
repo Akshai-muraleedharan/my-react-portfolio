@@ -15,7 +15,7 @@
 
 .container-about{
     background-color: var(--primary);
-    height: 104vh;
+    /* height: 104vh; */
     position: relative;
 }
 .container-about h1{
@@ -42,7 +42,7 @@
     margin: 0 auto;
     max-width: 1136px;
     /* background-color: #312f2f;  */
-    height: 70vh;
+    /* height: 70vh; */
 }
 
 .about-content{
@@ -150,9 +150,7 @@
     .about-content{
         padding-left: 30px;
     }
-    .container-about{
-        height: 144vh;
-    }
+    
     .about-content h2{
         font-size: 16px;
     }

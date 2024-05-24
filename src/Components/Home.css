@@ -14,12 +14,15 @@
     --media: #d3d0d0;
 }
 
+body{
+    background-color: var(--primary);
+}
 
-.container{
+/* .container{
     background-color: var(--primary);
     /* border-bottom: 1px solid orange; */
-    height: 85vh;
-}
+    /* height: 85vh; 
+} */
 
 .wrapper{
     margin: 0 auto;
