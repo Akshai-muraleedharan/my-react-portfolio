@@ -10,11 +10,11 @@ const projectData= [
     }, 
     {
         title:"Back-end project",
-        project:["No projects now its ongoing"]
+        project:["No projects now still working"]
     },
     {
         title:"UI/UX Designer",
-        project:["No projects now its ongoing"]
+        project:["No projects now still working"]
     }
      
 ]
