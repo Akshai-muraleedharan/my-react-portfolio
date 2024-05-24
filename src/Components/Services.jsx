@@ -1,54 +1,81 @@
-import React from 'react'
-import "./Services.css"
-import { RxDesktop } from "react-icons/rx";
-import { TbAffiliateFilled } from "react-icons/tb";
-import { FaCircleNodes } from "react-icons/fa6";
 
+import "./Services.css"
+
+
+const projectData= [
+    {
+        title:"Front-end project",
+        project:["Netflix Clone","Sk travels clone","Kids App","Photo Gallery"],
+       
+    }, 
+    {
+        title:"Back-end project",
+        project:["No projects now its ongoing"]
+    },
+    {
+        title:"UI/UX Designer",
+        project:["No projects now its ongoing"]
+    }
+     
+]
+
+
+
+function Projects(props) {
+  
+ 
+    
+    
+    return(
+       
+        <>
+              
+            {/* <div className='ser-wrapper'> */}
+               
+                    <div className='ser-card'>
+                        
+                        <h1>{props.title}</h1>
+
+                        <div className="projects">
+                            <h5>Projects</h5>
+                            <ul>
+                                
+                                {props.projects.map((item,index,)=>(
+                                  
+                                    <li key={index}><a href="#">{item}</a></li>
+                                    
+                                ))}
+                            </ul>
+                        </div>
+                        
+                    
+                    </div>
+                
+
+
+            {/* </div> */}
+            </>
+
+
+    
+    )
+ }
 
 function Services() {
     return (
         
+      <>
         <section className='service-container' id='services-section'>
-            <h2><span>My</span>  Services</h2>
-            <div className='ser-wrapper'>
-                <div >
-                    <div className='ser-card'>
-                        <span><RxDesktop /></span>
-                        <h1>UI/UX Design</h1>
-                        <p>Worked on several open sources
-                        projects.
-                        </p>
-                        <p className='works-card'> See my work here...</p>
-                    </div>
-                </div>
-
-
-                <div >
-                    <div className='ser-card'>
-                        <span><TbAffiliateFilled /></span>
-                        <h1>Frontend Development</h1>
-
-                        <p>Worked with HTML,CSS,JS,React
-                        </p>
-                        <p className='works-card'> See my work here...</p>
-                    </div>
-                </div>
-                <div >
-                    <div className='ser-card'>
-                        <span><FaCircleNodes /></span>
-                        <h1>Backend Development</h1>
-
-                        <p>Worked with NodeJS,PhP,SQL,
-                        </p>
-                        <p className='works-card'> See my work here...</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </section>
+       {projectData.map((project,index)=>(
+        <Projects   key={index}  title ={project.title}
+                                 projects={project.project}
+                                 />
+       ))}
+       </section>
+       </>
     )
 }
+
+    
 
 export default Services
