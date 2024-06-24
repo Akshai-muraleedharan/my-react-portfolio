@@ -47,7 +47,7 @@
 }
 
 .contact-form input{
-    padding: 7px 0px 7px 4px;
+    padding: 10px 0px 10px 4px;
     width: 100%;
     
     
@@ -93,6 +93,12 @@ form button{
     .contact-form{
         padding: 0px  20px 0px 20px;
         width: 91%;
+    }
+    .contact-form input{
+        padding: 7px 0px 7px 4px;
+        width: 100%;
+        
+        
     }
     
     

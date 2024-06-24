@@ -18,7 +18,7 @@ function App() {
       <Header />
       <Home />
       <About />
-      <h2 className="service"><span>My</span>  Projects</h2>
+      <h2 className="service"><span>My</span>  services</h2>
       <Services />
       <Contact />
       <Footer />
